@@ -1,0 +1,55 @@
+.Topbar_Topbar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 6px #ccc;
+  }
+  
+  .Topbar_Topbar nav a.active {
+    color: #20b883 !important;
+    border-bottom: 3px solid #20b883 !important;
+  }
+  
+  .Topbar_LogoWrapper {
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+  }
+  
+  .Topbar_LogoWrapper img {
+    height: 28px;
+    width: 24px;
+    margin-right: 10px;
+  }
+  
+  .Topbar_BrandName {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-right: 30px;
+  }
+  
+  .Topbar_Topbar nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+    padding: 21px 2px;
+    border-bottom: 3px solid transparent;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  #logout {
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    color: #333;
+    font-weight: 600;
+    margin-left: auto;
+    margin-right: 30px;
+  }
+  
+  #logout:hover {
+    color: #20b883;
+  }
+  
